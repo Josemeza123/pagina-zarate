@@ -205,3 +205,24 @@ height: auto;
 .btn-right {
     right: 10px;
 }
+
+
+/* Lista de programas */
+
+.informacion h2{
+    display: block;
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.informacion p{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+

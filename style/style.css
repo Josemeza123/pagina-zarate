@@ -111,3 +111,97 @@ header {
         margin-bottom: 20px;
     }
 }
+
+
+/* iconos de redes sociales */
+
+.redes-sociales {
+    margin-top: 200px;
+    margin-right: 10px;
+    position: fixed;
+    right: 0;
+    width: 50px;
+}
+
+.red-social {
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.red-social img {
+    width: 50px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.imagen{
+width: 100%;
+height: auto;
+}
+
+
+/* carrusel de imagenes */
+
+.container-carrusel {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.carruseles {
+    width: 600%;
+    height: 100%;
+    display: flex;
+}
+
+.slide-section {
+    width: calc(100%/6);
+    height: 100%;
+}
+
+.slide-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn-left,
+.btn-right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0, -50%);
+    transition: .5s ease;
+    user-select: none;
+}
+
+.btn-left:hover,
+.btn-right:hover {
+    background-color: #333333d4;
+    color: #fff;
+}
+
+.btn-left {
+    left: 10px;
+}
+
+.btn-right {
+    right: 10px;
+}
